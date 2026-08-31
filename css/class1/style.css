@@ -1,0 +1,71 @@
+/* =================================
+   1. Universal Selector
+   ================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+
+/* =================================
+   2. Type Selector
+   ================================= */
+
+p {
+    color: blue;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+
+/* =================================
+   3. ID Selector
+   ================================= */
+
+#special {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* =================================
+   4. Child Selector
+   ================================= */
+
+.parent > p {
+    color: green;
+    background-color: lightgreen;
+}
+
+
+/* =================================
+   5. Descendant Selector
+   ================================= */
+
+.content p {
+    color: purple;
+    background-color: lavender;
+}
+
+
+/* =================================
+   6. Adjacent Sibling Selector
+   ================================= */
+
+h3 + p {
+    color: orange;
+    font-weight: bold;
+}
+
+
+/* =================================
+   7. General Sibling Selector
+   ================================= */
+
+h3 ~ p {
+    background-color: lightyellow;
+}
